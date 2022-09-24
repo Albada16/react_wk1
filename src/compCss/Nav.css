@@ -45,3 +45,21 @@ li:hover>.bline{
         opacity: 1;
     }
 }
+
+@media screen and (max-width:1024px) {
+    .nav{
+        font-size: 23px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width:890px) {
+    .nav{
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width:720px) {
+    .nav{
+        visibility: hidden;
+    }
+
+}
