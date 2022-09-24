@@ -5,7 +5,7 @@ import articleT from "../json/article.json";
 export default function Hlight() {
   return (
     <div className="Hlight">
-        <div className="hl_title">BLOCTO HIGHLIGHT</div>
+        <div className="hl_title">BLOCTO HIGHLIGH</div>
         <div className='article'>
           {articleT.map(ats => (
             <Article key={ats.id} ats={ats}/>
