@@ -45,70 +45,41 @@
 
 }
 
-.deco{
-    position: absolute;
-    margin: 0;
-    padding: 0;
+
+@media screen and (max-width:890px) {
+
+    .blt{
+        padding: 0 10% 0 10%;
+    }
+    .city{
+        min-height: 400px;
+    }
+
 }
-.l1{
-    top: 0;
-    margin: 3%;
-    margin-left: 7%;
-    animation-name: bloctot;
-    animation-duration: 1s;
-    animation-delay: 1.3s;
-    opacity: 0;
-    animation-fill-mode: forwards;
+
+@media screen and (max-width:720px) {
+
+    .blocto{
+        transform: translateY(0);
+    }
+    .header_min{
+        min-height: 400px;
+        margin: 0;
+    }
+    .city{
+        min-height: 400px; 
+        top: 15%;
+    }
 }
-.l1 img{
-    width: 12vw;
+@media screen and (max-width:580px) {
+    .city{
+        min-height: 300px; 
+        top: 15%;
+    }
 }
-.l2{
-    bottom: -10%;
-    animation-name: bloctot2;
-    animation-duration: 1s;
-    animation-delay: 1.1s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-}
-.l2 img{
-    width: 15vw;
-}
-.r1{
-    top: 0;
-    right: 0;
-    margin-right: 10%;
-    animation-name: bloctot;
-    animation-duration: 1s;
-    animation-delay: 1.5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-}
-.r1 img{
-    width: 14vw;
-}
-.r2{
-    top: 20em;
-    right: 0;
-    margin-right: 5%;
-    animation-name: bloctot;
-    animation-duration: 1s;
-    animation-delay: 1.1s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-}
-.r2 img{
-    width: 4vw;
-}
-.r3{
-   right: 0;
-   bottom: -10%;
-   animation-name: bloctot3;
-   animation-duration: 1s;
-   animation-delay: 1.2s;
-   opacity: 0;
-   animation-fill-mode: forwards;
-}
-.r3 img{
-    width: 15vw;
+@media screen and (max-width:400px) {
+    .city{
+        height: 100px; 
+        top: 15%;
+    }
 }

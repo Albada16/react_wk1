@@ -77,10 +77,12 @@ ul{
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
+	margin-left: 50px;
 }
 }
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
+	margin-left: 20px;
 }
 }

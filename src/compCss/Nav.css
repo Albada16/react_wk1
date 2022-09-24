@@ -47,19 +47,19 @@ li:hover>.bline{
 }
 
 @media screen and (max-width:1024px) {
-    .nav{
-        font-size: 23px;
-        font-weight: 500;
+    .Nav{
+        font-size: 18px;
     }
 }
 @media screen and (max-width:890px) {
-    .nav{
-        margin-top: 150px;
+    .Nav{
+        margin-bottom: 50px;
     }
 }
 @media screen and (max-width:720px) {
-    .nav{
+    .Nav{
         visibility: hidden;
+        margin-bottom: 0px;
     }
 
 }
